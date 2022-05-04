@@ -1,0 +1,26 @@
+{
+  "name": "weather-cli-sav",
+  "version": "1.0.3",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">14"
+  },
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ShotAlex",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
